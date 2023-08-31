@@ -898,3 +898,10 @@ ImportError: cannot import name '_load_to_bigquery' from 'helper.helper' (/opt/a
 [2023-08-31T16:41:36.708+0000] {logging_mixin.py:149} INFO - [2023-08-31T16:41:36.707+0000] {dag.py:2726} INFO - Sync 1 DAGs
 [2023-08-31T16:41:36.726+0000] {logging_mixin.py:149} INFO - [2023-08-31T16:41:36.726+0000] {dag.py:3490} INFO - Setting next_dagrun for load_covid_data to 2023-08-30T00:00:00+00:00, run_after=2023-08-31T00:00:00+00:00
 [2023-08-31T16:41:36.741+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/load_covid_data.py took 0.472 seconds
+[2023-08-31T16:42:07.470+0000] {processor.py:157} INFO - Started process (PID=11282) to work on /opt/airflow/dags/load_covid_data.py
+[2023-08-31T16:42:07.470+0000] {processor.py:826} INFO - Processing file /opt/airflow/dags/load_covid_data.py for tasks to queue
+[2023-08-31T16:42:07.471+0000] {logging_mixin.py:149} INFO - [2023-08-31T16:42:07.471+0000] {dagbag.py:541} INFO - Filling up the DagBag from /opt/airflow/dags/load_covid_data.py
+[2023-08-31T16:42:07.859+0000] {processor.py:836} INFO - DAG(s) dict_keys(['load_covid_data']) retrieved from /opt/airflow/dags/load_covid_data.py
+[2023-08-31T16:42:07.965+0000] {logging_mixin.py:149} INFO - [2023-08-31T16:42:07.964+0000] {dag.py:2726} INFO - Sync 1 DAGs
+[2023-08-31T16:42:07.983+0000] {logging_mixin.py:149} INFO - [2023-08-31T16:42:07.983+0000] {dag.py:3490} INFO - Setting next_dagrun for load_covid_data to 2023-08-30T00:00:00+00:00, run_after=2023-08-31T00:00:00+00:00
+[2023-08-31T16:42:07.998+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/load_covid_data.py took 0.530 seconds
