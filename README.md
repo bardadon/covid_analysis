@@ -1,13 +1,13 @@
 # covid
 
-In this project, we will be analyzing COVID data from April 2020 to March 2021.
+In this project, we will be analyzing COVID-19 data from April 2020 to March 2021.
 
-The project will include the following componenets:
-1. Scheduled data pipeline for transferring data from an API to Google BigQuery.
-2. Processing, cleaning and transforming of the data
-3. Producing various analytical dashboards using Tableau.
-4. Gradient Boosting model for predicting the increase in death cases due to COVID-19.
-5. An API for interacting with the Gradient Boosting Model.
+The project will include the following components:
+1. __Scheduled data pipeline__ for transferring data from an API to Google BigQuery.
+2. Processing, cleaning, and transforming of the data
+3. Producing various __analytical dashboards__ using Tableau.
+4. __Gradient Boosting model__ for predicting the increase in death cases due to COVID-19.
+5. An __API__ for interacting with the Gradient Boosting Model.
 
 For more details and implementation details, check out my Medium article:
 https://medium.com/dev-genius/data-engineering-project-analyzing-covid-data-3db7c15c57dc
